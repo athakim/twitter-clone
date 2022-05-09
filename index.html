@@ -1,0 +1,349 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"/>
+  <title>Twitter clone</title>
+</head>
+<body>
+  <div class="container mx-auto max-w-screen-xl px-0 md:px-5">
+   
+		<!-- Sidebar -->
+		<div class="w-[275px] py-2 fixed  h-full">
+			<a  href="" class="text-twitter-color fa-xl inline-block mb-4 ml-5 hover:bg-[#d0e0ea] rounded-full p-3">
+			<i class="fa-brands fa-twitter"></i>
+			</a>
+			<ul class="space-y-4 pr-10">
+				<li>
+					<a href="" class="flex justify-start space-x-4 items-center hover:bg-gris-twitter p-2 rounded-full ml-4 pl-3">
+						<i class="fa-solid fa-house fa-xl"></i>
+						<span class="font-bold text-xl">Accueil</span>
+					</a>
+				</li>
+				<li>
+					<a href="" class="flex justify-start space-x-4 items-center hover:bg-gris-twitter p-2 rounded-full ml-4 pl-3">
+					<i class="fa-regular fa-hashtag fa-xl"></i>
+					<span class="font-thin text-xl">Explorer</span>
+					</a>
+				</li>
+				<li>
+					<a href="" class="flex justify-start space-x-4 items-center hover:bg-gris-twitter p-2 rounded-full ml-4 pl-3">
+					<i class="fa-regular fa-bell fa-xl"></i>
+					<span class="font-thin text-xl">Notifications</span>
+					</a>
+				</li>
+				<li>
+					<a href="" class="flex justify-start space-x-4 items-center hover:bg-gris-twitter p-2 rounded-full ml-4 pl-3">
+					<i class="fa-regular fa-envelope fa-xl"></i>
+					<span class="font-thin text-xl">Messages</span>
+					</a>
+				</li>
+				<li>
+					<a href="" class="flex justify-start space-x-4 items-center hover:bg-gris-twitter p-2 rounded-full ml-4 pl-3">
+					<i class="fa-regular fa-bookmark fa-xl"></i>
+					<span class="font-thin text-xl">Signets</span>
+					</a>
+				</li>
+				<li>
+					<a href="" class="flex justify-start space-x-4 items-center hover:bg-gris-twitter p-2 rounded-full ml-4 pl-3">
+					<i class="fa-regular fa-rectangle-list fa-xl"></i>
+					<span class="font-thin text-xl">Listes</span>
+					</a>
+				</li>
+				<li>
+					<a href="" class="flex justify-start space-x-4 items-center hover:bg-gris-twitter p-2 rounded-full ml-4 pl-3">
+					<i class="fa-regular fa-user fa-xl"></i>
+					<span class="font-thin text-xl">Profil</span>
+					</a>
+				</li>
+				<li>
+					<a href="" class="flex justify-start space-x-4 items-center hover:bg-gris-twitter p-2 rounded-full ml-4 pl-3">
+					<i class="fa-solid fa-ellipsis fa-xl"></i>
+					<span class="font-thin text-xl">Plus</span>
+					</a>
+				</li>
+			
+
+			</ul>
+			<div class="pr-10">
+				<button class="bg-twitter-color w-full  text-white font-semibold py-3 px-8 rounded-full my-8 hover:bg-[#157cc1]">
+					Tweeter
+				</button>
+			</div>
+
+			<a href="" class="absolute bottom-2 flex space-x-2 items-center justify-between hover:bg-gris-twitter p-2 rounded-full ">
+			<img src="img/hakim.jpg" alt="profil" class="w-12 h-12 rounded-full">
+			<div class="">
+				<span class="font-semibold text-sm">
+				AIT TAYEB hakim
+				</span>
+				<span class="">
+				@athakim
+				</span>
+			</div>
+			<div class="ml-4">
+				<i class="fa-solid fa-ellipsis fa-xl"></i>
+			</div>
+			</a>
+		</div>
+		<!-- Content --> 
+		<div class=" ml-[275px]  flex space-x-10 justify-between">
+			<div class="flex">
+				<div class="border-l border-r md:w-2/3  borde-gray-200  w-3/5">
+					<div class="sticky top-0 h-16 flex items-center justify-between px-5 bg-white opacity-90">
+						<h2 class="font-bold text-xl" >Accueil</h2>
+						<i class="fa-regular fa-star"></i>
+					</div>
+					<div class="px-5">
+						<div class="flex items-center space-x-6">
+							<img src="img/hakim.jpg" alt="profil" class="w-12 h-12 rounded-full">
+							<p class="text-xl font-normal text-gray-400">Quoi de neuf ?</p>
+						</div>
+						<div class="flex justify-between items-center">
+							<ul class="flex text-[#8ECDF8] ml-16 space-x-6">
+								<li>
+									<i class="fa-regular fa-image"></i>
+								</li>
+								<li>
+									<i class="fa-solid fa-gift"></i>
+								</li>
+								<li>
+									<i class="fa-solid fa-bars-staggered"></i>
+								</li>
+								<li>
+									<i class="fa-regular fa-face-frown-open"></i>
+								</li>
+								<li>
+									<i class="fa-regular fa-calendar-days"></i>
+								</li>
+								<li>
+									<i class="fa-solid fa-location-dot"></i>
+								</li>
+							</ul>
+							<button class="bg-[#8ECDF8]  text-white font-semibold py-2 px-6 rounded-full my-4 ">
+								Tweeter
+							</button>
+						</div>
+					</div>
+					<div class="border-t border-b border-gray-200 px-5 py-3 flex space-x-4">
+						<img src="img/twits/profil1.jpg" alt="profil" class="w-12 h-12 rounded-full">
+						<div class="">
+							<div class="flex justify-between">
+								<p class="text-sm">
+									<span class=" font-semibold text-base">Census</span>@census 
+								</p>
+								<a href=""><i class="fa-solid fa-ellipsis"></i></a>
+							</div>
+
+							<p class="mb-3">
+								In short, Reverse ETL is the difference between making decisions based on your data and finally being able to take action to realize your data dreams.</p>
+							<p  class="mb-3">
+								Let's dive in?👇
+							</p>
+							<img src="img/twits/tw1.png" alt="" class="rounded-xl">
+							<div class="my-3 flex justify-between text-gray-500 mr-20">
+								<div class="space-x-1">
+									<i class="fa-regular fa-comment"></i>
+									<span class="text-sm">2</span>
+								</div>
+								<div class="space-x-1">
+									<i class="fa-solid fa-retweet"></i>
+									<span class="text-sm">5</span>
+								</div>
+								<div class="space-x-1">
+									<i class="fa-regular fa-heart"></i>
+									<span class="text-sm">12</span>
+								</div>
+								<div class="space-x-1">
+									<i class="fa-solid fa-arrow-up-from-bracket"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="border-t border-b border-gray-200 px-5 py-3 flex space-x-4">
+						<img src="img/twits/profil2.png" alt="profil" class="w-12 h-12 rounded-full">
+						<div class="">
+							<div class="flex justify-between">
+								<p class="text-sm space-x-3">
+									<span class=" font-semibold text-base">Uncle Bob Martin</span>@unclebobmartin <span>20 min</span> 
+								</p>
+								<a href=""><i class="fa-solid fa-ellipsis"></i></a>
+							</div>
+
+							<p class="mb-3">
+								The big lie is that making messes allows you to go faster — at first. <p>
+								</p>No. Messes slow you down at the very start, and the impediment will simply increase without bound until you clean them. </p>
+								<p>Ask me how I know.</p>
+							
+							<div class="my-3 flex justify-between text-gray-500 mr-20">
+								<div class="space-x-1">
+									<i class="fa-regular fa-comment"></i>
+									<span class="text-sm">2</span>
+								</div>
+								<div class="space-x-1">
+									<i class="fa-solid fa-retweet"></i>
+									<span class="text-sm">5</span>
+								</div>
+								<div class="space-x-1">
+									<i class="fa-regular fa-heart"></i>
+									<span class="text-sm">12</span>
+								</div>
+								<div class="space-x-1">
+									<i class="fa-solid fa-arrow-up-from-bracket"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="border-t border-b border-gray-200 px-5 py-3 flex space-x-4">
+						<img src="img/twits/profil3.jpg" alt="profil" class="w-12 h-12 rounded-full">
+						<div class="">
+							<div class="flex justify-between">
+								<p class="text-sm space-x-3">
+									<span class=" font-semibold text-base">NordVPN</span>@NordVPN  
+								</p>
+								<a href=""><i class="fa-solid fa-ellipsis"></i></a>
+							</div>
+
+							<p class="mb-3">
+								Plus besoin de choisir entre vitesse et sécurité : NordVPN vous offre les deux. Naviguez en ligne en toute sécurité à la vitesse de la lumière : https://content.nordvpn.com/3ETDv8Q</p>
+							<img src="img/twits/tw3.png" alt="" class="rounded-xl">
+							<div class="my-3 flex justify-between text-gray-500 mr-20">
+								<div class="space-x-1">
+									<i class="fa-regular fa-comment"></i>
+									<span class="text-sm">3</span>
+								</div>
+								<div class="space-x-1">
+									<i class="fa-solid fa-retweet"></i>
+									<span class="text-sm">5</span>
+								</div>
+								<div class="space-x-1">
+									<i class="fa-regular fa-heart"></i>
+									<span class="text-sm">21</span>
+								</div>
+								<div class="space-x-1">
+									<i class="fa-solid fa-arrow-up-from-bracket"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class=" hidden md:block w-2/5 px-6 ">
+					<div class="sticky top-0 h-16  items-center justify-between bg-white">
+						<div class="   mt-1 mb-2   w-full focus-within:text-gray-600">
+							<input type="text" placeholder="Recheche Twitter" class="px-1  outline-none focus:ring-1 focus:ring-twitter-color  w-full bg-gris-twitter rounded-full p-2 pl-12" >
+							<i class="fa-solid fa-magnifying-glass absolute top-3 left-6 text-gray-400"></i>
+						</div>
+					</div>
+					<div class="bg-gris-twitter rounded-lg p-3 ">
+						<h3 class="text-gray-600 font-bold text-xl mb-6">Tendances pour vous</h3>
+						<div class="text-gray-500 my-3">
+							<p class="flex justify-between">
+								<span class="text-sm">Tendance dans la catégorie France</span>
+								<i class="fa-solid fa-ellipsis"></i>
+							</p>
+							<p class="text-gray-600 font-bold">Bill Gates</p>
+							<p class="text-sm text-gray-500">57,4 k Tweets </p>
+						</div>
+						<div class="text-gray-500 my-3">
+							<p class="flex justify-between">
+								<span class="text-sm">Tendance dans la catégorie France</span>
+								<i class="fa-solid fa-ellipsis"></i>
+							</p>
+							<p class="text-gray-600 font-bold">#pfizerdocuments</p>
+							<p class="text-sm text-gray-500">110 k Tweets </p>
+						</div>
+						<div class="text-gray-500 my-3">
+							<p class="flex justify-between">
+								<span class="text-sm">Tendance dans la catégorie France</span>
+								<i class="fa-solid fa-ellipsis"></i>
+							</p>
+							<p class="text-gray-600 font-bold">Sam Raimi</p>
+							<p class="text-sm text-gray-500">33,3 k Tweets</p>
+						</div>
+						<div class="text-gray-500 my-3">
+							<p class="flex justify-between">
+								<span class="text-sm">Tendance dans la catégorie France</span>
+								<i class="fa-solid fa-ellipsis"></i>
+							</p>
+							<p class="text-gray-600 font-bold">Epstein</p>
+							<p class="text-sm text-gray-500">21,7 k Tweets</p>
+						</div>
+						<div class="text-gray-500 my-3">
+							<p class="flex justify-between">
+								<span class="text-sm">Tendance dans la catégorie France</span>
+								<i class="fa-solid fa-ellipsis"></i>
+							</p>
+							<p class="text-gray-600 font-bold">Iris</p>
+							<p class="text-sm text-gray-500">40,6 k Tweets</p>
+						</div>
+						<div class="text-gray-500 my-3">
+							<p class="flex justify-between">
+								<span class="text-sm">Tendance dans la catégorie France</span>
+								<i class="fa-solid fa-ellipsis"></i>
+							</p>
+							<p class="text-gray-600 font-bold">Bill Gates</p>
+							<p class="text-sm text-gray-500">57,4 k Tweets </p>
+						</div>
+						<div class="text-gray-500 my-3">
+							<p class="flex justify-between">
+								<span class="text-sm">Tendance dans la catégorie France</span>
+								<i class="fa-solid fa-ellipsis"></i>
+							</p>
+							<p class="text-gray-600 font-bold">#pfizerdocuments</p>
+							<p class="text-sm text-gray-500">110 k Tweets </p>
+						</div>
+						<div class="text-gray-500 my-3">
+							<p class="flex justify-between">
+								<span class="text-sm">Tendance dans la catégorie France</span>
+								<i class="fa-solid fa-ellipsis"></i>
+							</p>
+							<p class="text-gray-600 font-bold">Sam Raimi</p>
+							<p class="text-sm text-gray-500">33,3 k Tweets</p>
+						</div>
+						<div class="my-5">
+							<a href="" class="text-twitter-color">
+								Voir plus
+							</a>
+						</div>
+					</div>
+					<div class="bg-gris-twitter rounded-lg p-3 mt-4 ">
+						<h3 class="text-gray-600 font-bold text-xl mb-6">Suggestions</h3>
+						
+						<div class="flex text-sm space-x-2 justify-between items-center my-5">
+							<div class="flex space-x-2">
+								<img src="img/twits/ps.png" alt="profil" class="w-12 h-12 rounded-full">
+								<div class="">
+									<p class="font-semibold">PokerStars Sports FR</p>
+									<p>@PSSportsFr</p>
+								</div>
+							</div>
+							<a href="" class="bg-black text-sm font-semibold py-2 px-4 text-white rounded-full">
+								Suivre
+							</a>
+						</div>
+						<div class="flex text-sm space-x-2 justify-between items-center my-5">
+							<div class="flex space-x-2">
+								<img src="img/twits/ln.jpg" alt="profil" class="w-12 h-12 rounded-full">
+								<div class="">
+									<p class="font-semibold">LaravelNews</p>
+									<p>@laravelnews</p>
+								</div>
+							</div>
+							<a href="" class="bg-black text-sm font-semibold py-2 px-4 text-white rounded-full">
+								Suivre
+							</a>
+						</div>
+						<div class="my-5">
+							<a href="" class="text-twitter-color ">
+								Voir plus
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+</body>
+</html>

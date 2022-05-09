@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/athakim/twitter-clone/issues"
   },
-  "homepage": "https://github.com/athakim/twitter-clone#readme"
+  "homepage": "https://github.com/athakim/twitter-clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
 }
